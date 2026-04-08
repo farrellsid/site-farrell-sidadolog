@@ -1,3 +1,1 @@
-# odin-recipes
-
-This is just a project. The Odin Project's first project, in fact!
+Repurposed to personal website. Will upload files here.
