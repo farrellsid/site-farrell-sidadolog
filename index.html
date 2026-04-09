@@ -1,19 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Meal Prep King</title>
-    </head>
-    <body>
-        <h1>
-            Odin Recipes - Meal Prep King
-        </h1>
-        <h3>
-            Getting gains, one meal at a time. Courtesy of Noel Deyzel.
-        </h3>
-        <a href="recipes/breakfast_shake.html">Breakfast Shake</a> <br>
-        <a href="recipes/chicken_n_veggies.html">Chicken n Veggies</a><br>
-        <a href="recipes/egg_rice_stirfry.html">Egg Rice Stir Fry</a><br>
-        <a href="recipes/lentils.html">Lentils</a><br>
-    </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="container">
+      <a class="nav-name" href="#">Your Name</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header>
+    <div class="container">
+      <h1>Your Name</h1>
+      <p class="subtitle">One line about who you are and what you do.</p>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="about">
+      <div class="container">
+        <h2>About</h2>
+        <p>A short paragraph about yourself. Where you're from, what you work on, what you care about. Keep it real.</p>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="container">
+        <h2>Work</h2>
+        <ul class="work-list">
+          <li class="work-item">
+            <h3>Project One</h3>
+            <p>Short description of the project.</p>
+          </li>
+          <li class="work-item">
+            <h3>Project Two</h3>
+            <p>Short description of the project.</p>
+          </li>
+          <li class="work-item">
+            <h3>Project Three</h3>
+            <p>Short description of the project.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="contact-links">
+          <a href="mailto:you@example.com">Email</a>
+          <a href="https://github.com/yourhandle" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/yourhandle" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <span>Your Name</span>
+      <span>© <span id="year"></span></span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
 </html>
